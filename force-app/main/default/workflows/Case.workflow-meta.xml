@@ -4,7 +4,7 @@
         <fullName>ChangePriorityToHigh</fullName>
         <field>Priority</field>
         <literalValue>High</literalValue>
-        <name>email on unsupported commit</name>
+        <name>unsupported meta commit</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
         <protected>false</protected>
