@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Merge_conflict_Alert</fullName>
+        <ccEmails>sriramnavin131@gmail.com</ccEmails>
+        <description>Merge conflict Alert</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Conflict_template</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Account_name</fullName>
+        <field>Name</field>
+        <name>Update Account name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>
