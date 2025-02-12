@@ -1,0 +1,8 @@
+    <alerts>
+        <fullName>Account_change_alert</fullName>
+        <ccEmails>satyabhargav1113@gmail.com</ccEmails>
+        <description>Account change alert</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Conflict_template</template>
+    </alerts>
